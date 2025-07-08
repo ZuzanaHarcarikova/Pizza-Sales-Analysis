@@ -1,13 +1,14 @@
 # Pizza-Sales-Analysis
 Pizza restaurant analysis using Python + SQL + Power BI + Power Query
 
+
 This project is here to show that:
 
-I can write SQL queries that make sense and answer real questions,
+1. I can write SQL queries that make sense and answer real questions,
 
-I understand the data well enough to turn it into a clear visual story,
+2. I understand the data well enough to turn it into a clear visual story,
 
-And I can switch to Python when I need more flexibility than SQL can offer.
+3. And I can switch to Python when I need more flexibility than SQL can offer.
 
 # Table of Contents
 1. Introduction
