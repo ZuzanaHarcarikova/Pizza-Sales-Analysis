@@ -33,10 +33,30 @@ I have performed exploratory data analysis (EDA) using Python.
 
 
 6. SQL
+I used SQL queries on the cleaned_pizza_sales table within the pizza_project database to perform a comprehensive analysis.
 
-7. Power Query
+The queries cover:
 
-8. Usage
+Key Performance Indicators (KPIs):
+Calculated total revenues, total pizzas sold, and total number of unique orders to get an overall snapshot of sales performance.
+
+Trend Analysis:
+Analyzed revenue trends by month, day of the week, and hour of the day to identify patterns in customer purchasing behavior over time.
+
+Categorical Analysis:
+Summarized revenue by pizza category and size, showing each category’s contribution to total sales for a better understanding of popular products.
+
+Descriptive Statistics:
+Computed average quantities sold per order, average revenue per order, and average daily revenue to understand typical sales metrics.
+
+Top and Bottom Products:
+Identified top 5 and bottom 5 pizzas by revenue, as well as top 5 pizzas by quantity sold, to highlight the best and worst performing items.
+
+These queries provided me with detailed insights into sales performance, customer behavior trends, and product popularity, supporting data-driven decision-making for the pizza restaurant.
+
+8. Power Query
+
+9. Usage
 
 
 
