@@ -1,16 +1,14 @@
 # Pizza-Sales-Analysis
 Pizza restaurant analysis using Python + SQL + Power BI
 
-
-
-
 # Table of Contents
 
-1. Overview Dashboard
-2. Dataset
-3. Python for EDA
-4. SQL for data correction
-5. SQL + Power BI for Visualisation
+1. Introduction
+2. Overview Dashboard
+3. Dataset
+4. Python for EDA
+5. SQL for data correction
+6. SQL + Power BI for Visualisation
 8. Usage
 
 ## Introduction
