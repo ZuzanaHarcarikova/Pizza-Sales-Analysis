@@ -20,6 +20,7 @@ This project is here to show that:
 
 ## Overview Dashboard
 <img width="2000" height="1156" alt="Sales_Dashboard" src="https://github.com/user-attachments/assets/2ed59e9b-89b5-4e10-872e-8d3b79562e98" />
+
 ## Dataset
 
 I have downloaded the dataset from the platform Kaggle. This dataset contains detailed information about pizza orders, including specifics about the pizza variants, quantities, pricing, dates, times, and categorization details.
