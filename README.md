@@ -28,14 +28,23 @@ I have performed exploratory data analysis (EDA) using Python.
   2. I have identified data types and chosed appropriate analysis methods.
   3. I have determine whether I need to handle NULL values. No NULL values were found.
   4. I have determined wheter I need to perform type conversions. As there are date formats with datatype OBJECT, conversion will be necessary.
-  5. I replaced the values in the size column from short codes s, m, and l to their full forms: Small, Medium, and Large. This step will ensure clarity and readability, better presentation      in reports and charts, improved interpretability for others and consistency across the project.
+  5. I replaced the values in the size column from short codes s, m, and l to their full forms: Small, Medium, and Large. This step will ensure clarity and readability, better presentation      in reports and charts, improved interpretability for others, and consistency across the project.
   6. The output from Python is a CSV file, cleaned_pizza_sales.csv. I will utilize this cleaned dataset to load into Power BI for creating an interactive dashboard.
 
 
 6. SQL
+
+I used SQL queries to inspect the structure of the existing cleaned_pizza_sales table. I identified:
+
+1. Problem with the order_date column, as it was stored as text with inconsistent date formats (1/1/2015 and 1-1-2015). To fix this, I standardized the date format in the original order_date column by replacing dashes with slashes and converted the corrected text dates into proper DATE format using STR_TO_DATE.
+
+2. Redundant column, which was removed to clean up redundant data.
+
+This process improved data quality by ensuring dates are stored consistently as DATE types and removing redundant data columns.
 I used SQL queries on the cleaned_pizza_sales table within the pizza_project database to perform a comprehensive analysis.
 
-The queries cover:
+
+7. SQL + Power BI
 
 Key Performance Indicators (KPIs):
 Calculated total revenues, total pizzas sold, and total number of unique orders to get an overall snapshot of sales performance.
@@ -52,11 +61,19 @@ Computed average quantities sold per order, average revenue per order, and avera
 Top and Bottom Products:
 Identified top 5 and bottom 5 pizzas by revenue, as well as top 5 pizzas by quantity sold, to highlight the best and worst performing items.
 
-These queries provided me with detailed insights into sales performance, customer behavior trends, and product popularity, supporting data-driven decision-making for the pizza restaurant.
-
-8. Power Query
 
 9. Usage
+These queries provided me with detailed insights into sales performance, customer behavior trends, and product popularity, supporting data-driven decision-making for the pizza restaurant. The dashboard's interactivity allows users to filter data according to months in a year.
+
+Powe BI highlights:
+
+1. In the Power BI dashboard, the chart showing monthly revenues is set to remain static and does not change when filters are applied to other visuals. This behavior is intentional and beneficial because it provides a consistent reference point for overall monthly sales trends, regardless of the filtered data, and users can compare filtered results against the total monthly revenues to better understand the impact of filters.
+
+2. I used the DAX language to create new columns that support the visuals displaying trends, such as revenue development over the week and month. These columns enable more detailed time-based analysis in the charts.
+
+3. Additionally, I created measures using DAX to calculate average revenues per day, per order, and per order line, which provide key performance metrics for the dashboard.
+
+
 
 
 
