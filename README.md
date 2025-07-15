@@ -11,12 +11,12 @@ This project is here to show that:
 3. And I can use Python when executing Exploratory Data Analysis
 
 # Table of Contents
-1. Introduction
-2. Overview Dashboard
-3. Dataset
-5. Python EDA
-6. SQL
-7. SQL + Power BI
+
+1. Overview Dashboard
+2. Dataset
+3. Python for EDA
+4. SQL for data correction
+5. SQL + Power BI for Visualisation
 8. Usage
 
 ## Dataset
@@ -29,9 +29,9 @@ Source: https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset/data
 
 I have performed exploratory data analysis (EDA) using Python.
   1. I have quickly verified the structure of the data to analyze.
-  2. I have identified data types and chosed appropriate analysis methods.
-  3. I have determine whether I need to handle NULL values. No NULL values were found.
-  4. I have determined wheter I need to perform type conversions. As there are date formats with datatype OBJECT, conversion will be necessary.
+  2. I have identified data types and chosen appropriate analysis methods.
+  3. I have determined whether I need to handle NULL values. No NULL values were found.
+  4. I have determined whether I need to perform type conversions. As there are date formats with datatype OBJECT, conversion will be necessary.
   5. I replaced the values in the size column from short codes s, m, and l to their full forms: Small, Medium, and Large. This step will ensure clarity and readability, better presentation      in reports and charts, improved interpretability for others, and consistency across the project.
   6. The output from Python is a CSV file, cleaned_pizza_sales.csv. I will utilize this cleaned dataset to load into Power BI for creating an interactive dashboard.
 
@@ -50,20 +50,15 @@ I used SQL queries on the cleaned_pizza_sales table within the pizza_project dat
 
 ## SQL + Power BI
 
-Key Performance Indicators (KPIs):
-Calculated total revenues, total pizzas sold, and total number of unique orders to get an overall snapshot of sales performance.
+1. Key Performance Indicators (KPIs): Calculated total revenues, total pizzas sold, and total number of unique orders to get an overall snapshot of sales performance.
 
-Trend Analysis:
-Analyzed revenue trends by month, day of the week, and hour of the day to identify patterns in customer purchasing behavior over time.
+2. Trend Analysis: Analyzed revenue trends by month, day of the week, and hour of the day to identify patterns in customer purchasing behavior over time.
 
-Categorical Analysis:
-Summarized revenue by pizza category and size, showing each category’s contribution to total sales for a better understanding of popular products.
+3. Categorical Analysis: Summarized revenue by pizza category and size, showing each category’s contribution to total sales for a better understanding of popular products.
 
-Descriptive Statistics:
-Computed average quantities sold per order, average revenue per order, and average daily revenue to understand typical sales metrics.
+4. Descriptive Statistics: Computed average quantities sold per order, average revenue per order, and average daily revenue to understand typical sales metrics.
 
-Top and Bottom Products:
-Identified top 5 and bottom 5 pizzas by revenue, as well as top 5 pizzas by quantity sold, to highlight the best and worst performing items.
+5. Top and Bottom Products: Identified top 5 and bottom 5 pizzas by revenue, as well as top 5 pizzas by quantity sold, to highlight the best and worst performing items.
 
 ## Power BI highlights:
 
