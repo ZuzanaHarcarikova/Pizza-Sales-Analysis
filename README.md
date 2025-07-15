@@ -30,12 +30,13 @@ Source: https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset/data
 ## Python EDA
 
 I have performed exploratory data analysis (EDA) using Python, i.e.
-  1. Verified the structure of the data to analyze.
-  2. Identified data types and chosen appropriate analysis methods.
-  3. Determined whether I need to handle NULL values. No NULL values were found.
-  4. Determined whether I need to perform type conversions. As there are date formats with datatype OBJECT, conversion will be necessary.
+  1. I verified the structure of the data to analyze.
+  2. I identified data types and chose appropriate analysis methods.
+  3. I determined whether I need to handle NULL values. No NULL values were found.
+  4. I determined whether I need to perform data type conversions. The order date has a datatype of OBJECT; therefore, conversion will be necessary.
   5. Replaced the values in the size column from short codes s, m, and l to their full forms: Small, Medium, and Large. This step will ensure clarity and readability, clearer presentation in reports and charts, improved interpretability for others, and consistency across the project.
-  6. The output from Python is a CSV file, cleaned_pizza_sales.csv. I will utilize this cleaned dataset to load into Power BI for creating an interactive dashboard.
+
+The output from Python is a CSV file, cleaned_pizza_sales.csv. I will utilize this cleaned dataset to load into Power BI for creating an interactive dashboard.
 
 
 ## SQL
