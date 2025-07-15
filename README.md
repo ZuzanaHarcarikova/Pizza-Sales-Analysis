@@ -38,6 +38,7 @@ I have performed exploratory data analysis (EDA) using Python, i.e.
 
 The output from Python is a CSV file, cleaned_pizza_sales.csv. I will utilize this cleaned dataset to load into Power BI for creating an interactive dashboard.
 
+./EDA.ipynb
 
 ## SQL
 
