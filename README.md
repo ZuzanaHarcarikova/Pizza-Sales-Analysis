@@ -27,6 +27,7 @@ This project is here to show that:
 I have downloaded the dataset from the platform Kaggle. This dataset contains detailed information about pizza orders, including specifics about the pizza variants, quantities, pricing, dates, times, and categorization details.
 
 Source: https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset/data
+
 [View filed in Repository](./pizza_sales.csv)
 
 ## Python EDA
@@ -41,6 +42,8 @@ I have performed exploratory data analysis (EDA) using Python, i.e.
 The output from Python is a CSV file, cleaned_pizza_sales.csv. I will utilize this cleaned dataset to load into Power BI for creating an interactive dashboard.
 
 [View my Python file](./EDA.ipynb)
+
+[View my Python file](./cleaned_pizza_sales.csv)
 
 ## SQL
 
@@ -68,7 +71,8 @@ I used SQL queries on the cleaned_pizza_sales table within the pizza_project dat
 5. Top and Bottom Products: Identified top 5 and bottom 5 pizzas by revenue, as well as top 5 pizzas by quantity sold, to highlight the best and worst performing items.
 
    [View my SQL Script](./SQL_Pizza_Restaurant.sql)
-   [View my PowerBI](./PowerBI file_Sales_Dashboard_Pizza_Restaurant.pbix)
+
+   [Download my PowerBI](./PowerBI_file_Sales_Dashboard_Pizza_Restaurant.pbix)
 
 ## Power BI highlights:
 
