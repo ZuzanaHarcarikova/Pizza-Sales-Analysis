@@ -28,7 +28,7 @@ I have downloaded the dataset from the platform Kaggle. This dataset contains de
 
 Source: https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset/data
 
-[View filed in Repository](./pizza_sales.csv)
+[Download from Repository](./pizza_sales.csv)
 
 ## Python EDA
 
@@ -43,7 +43,7 @@ The output from Python is a CSV file, cleaned_pizza_sales.csv. I will utilize th
 
 [View my Python file](./EDA.ipynb)
 
-[View my Python file](./cleaned_pizza_sales.csv)
+[Download cleaned_pizza_sales.csv from Repository](./cleaned_pizza_sales.csv)
 
 ## SQL
 
@@ -70,9 +70,9 @@ I used SQL queries on the cleaned_pizza_sales table within the pizza_project dat
 
 5. Top and Bottom Products: Identified top 5 and bottom 5 pizzas by revenue, as well as top 5 pizzas by quantity sold, to highlight the best and worst performing items.
 
-   [View my SQL Script](./SQL_Pizza_Restaurant.sql)
+[View my SQL Script](./SQL_Pizza_Restaurant.sql)
 
-   [Download my PowerBI](./PowerBI_file_Sales_Dashboard_Pizza_Restaurant.pbix)
+[Download my PowerBI from Repository](./PowerBI_file_Sales_Dashboard_Pizza_Restaurant.pbix)
 
 ## Power BI highlights:
 
