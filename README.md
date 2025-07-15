@@ -20,12 +20,14 @@ This project is here to show that:
 
 ## Overview Dashboard
 <img width="2000" height="1156" alt="Sales_Dashboard" src="https://github.com/user-attachments/assets/2ed59e9b-89b5-4e10-872e-8d3b79562e98" />
+[View filed in Repository](./PDF export PowerBI_Sales_Dashboard_Pizza_Restaurant_PDFVisualisation.pdf)
 
 ## Dataset
 
 I have downloaded the dataset from the platform Kaggle. This dataset contains detailed information about pizza orders, including specifics about the pizza variants, quantities, pricing, dates, times, and categorization details.
 
 Source: https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset/data
+[View filed in Repository](./pizza_sales.csv)
 
 ## Python EDA
 
@@ -38,7 +40,7 @@ I have performed exploratory data analysis (EDA) using Python, i.e.
 
 The output from Python is a CSV file, cleaned_pizza_sales.csv. I will utilize this cleaned dataset to load into Power BI for creating an interactive dashboard.
 
-[View my SQL script](./EDA.ipynb)
+[View my Python file](./EDA.ipynb)
 
 ## SQL
 
@@ -51,6 +53,7 @@ I used SQL queries to inspect the structure of the existing cleaned_pizza_sales 
 This process improved data quality by ensuring dates are stored consistently as DATE types and removing redundant data columns.
 I used SQL queries on the cleaned_pizza_sales table within the pizza_project database to perform a comprehensive analysis.
 
+[View my SQL Script](./SQL_dataset_correction.sql)
 
 ## SQL + Power BI
 
@@ -63,6 +66,9 @@ I used SQL queries on the cleaned_pizza_sales table within the pizza_project dat
 4. Descriptive Statistics: Computed average quantities sold per order, average revenue per order, and average daily revenue to understand typical sales metrics.
 
 5. Top and Bottom Products: Identified top 5 and bottom 5 pizzas by revenue, as well as top 5 pizzas by quantity sold, to highlight the best and worst performing items.
+
+   [View my SQL Script](./SQL_Pizza_Restaurant.sql)
+   [View my PowerBI](./PowerBI file_Sales_Dashboard_Pizza_Restaurant.pbix)
 
 ## Power BI highlights:
 
