@@ -20,7 +20,6 @@ This project is here to show that:
 
 ## Overview Dashboard
 <img width="2000" height="1156" alt="Sales_Dashboard" src="https://github.com/user-attachments/assets/2ed59e9b-89b5-4e10-872e-8d3b79562e98" />
-[View filed in Repository](./PDF export PowerBI_Sales_Dashboard_Pizza_Restaurant_PDFVisualisation.pdf)
 
 ## Dataset
 
@@ -28,7 +27,7 @@ I have downloaded the dataset from the platform Kaggle. This dataset contains de
 
 Source: https://www.kaggle.com/datasets/nextmillionaire/pizza-sales-dataset/data
 
-[Download from Repository](./pizza_sales.csv)
+[Download pizza_sales.csv from Repository](./pizza_sales.csv)
 
 ## Python EDA
 
